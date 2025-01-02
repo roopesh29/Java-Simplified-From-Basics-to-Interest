@@ -1,0 +1,39 @@
+"Welcome to My Java Learning Program!"
+Before diving into the actual coding part, I want to ensure you understand some basic concepts of Java. Let’s start with the simplest program to print 'Hello, World!' on the screen. Here's an example:
+
+class Welcome {
+    public static void main(String[] args) {
+        System.out.println("Hello, World!");
+    }
+}
+
+"Assigning Values in Java"
+In Java, assigning values to variables is a fundamental concept. A variable is used to store data that can be referenced and manipulated in a program. Let’s look at how to declare and assign values to variables:
+
+class AssignValues {
+    public static void main(String[] args) {
+        // Declare and assign an integer
+        int number = 10;
+
+        // Declare and assign a string
+        String name = "John";
+
+        // Declare and assign a double
+        double price = 99.99;
+
+        // Print the assigned values
+        System.out.println("Number: " + number);
+        System.out.println("Name: " + name);
+        System.out.println("Price: " + price);
+    }
+}
+Assigning Values in Java with respective type:
+
+int: Used to store integer (whole number) values.
+Example: int number = 10;
+
+String: Used to store sequences of characters (text).
+Example: String name = "John";
+
+double: Used to store decimal or floating-point values.
+Example: double price = 99.99;
